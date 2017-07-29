@@ -1,2 +1,2 @@
 import Parallax from './Parallax'
-module.exports = Parallax;
+module.exports = Parallax
