@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Parallax } from '../src';
+import Parallax from '../src';
 import './main.css';
 
 // For Non ES6...
