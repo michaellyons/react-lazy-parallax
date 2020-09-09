@@ -1830,34 +1830,6 @@ custom-event@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/custom-event/-/custom-event-1.0.1.tgz#5d02a46850adf1b4a317946a3928fccb5bfd0425"
 
-d3-color@1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/d3-color/-/d3-color-1.0.3.tgz#bc7643fca8e53a8347e2fbdaffa236796b58509b"
-
-d3-ease@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/d3-ease/-/d3-ease-1.0.3.tgz#68bfbc349338a380c44d8acc4fbc3304aa2d8c0e"
-
-d3-interpolate@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/d3-interpolate/-/d3-interpolate-1.1.4.tgz#a43ec5b3bee350d8516efdf819a4c08c053db302"
-  dependencies:
-    d3-color "1"
-
-d3-path@1:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/d3-path/-/d3-path-1.0.5.tgz#241eb1849bd9e9e8021c0d0a799f8a0e8e441764"
-
-d3-shape@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/d3-shape/-/d3-shape-1.0.6.tgz#b09e305cf0c7c6b9a98c90e6b42f62dac4bcfd5b"
-  dependencies:
-    d3-path "1"
-
-d3-timer@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/d3-timer/-/d3-timer-1.0.5.tgz#b266d476c71b0d269e7ac5f352b410a3b6fe6ef0"
-
 d@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
@@ -2497,9 +2469,9 @@ event-emitter@~0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
-eventemitter3@1.x.x:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
+eventemitter3@^4.0.0:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
 
 events@^1.0.0:
   version "1.1.1"
@@ -2747,6 +2719,10 @@ flatten@^1.0.2:
 flow-bin@^0.44.2:
   version "0.44.2"
   resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.44.2.tgz#3893c7db5de043ed82674f327a04b1309db208b5"
+
+follow-redirects@^1.0.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -3168,11 +3144,12 @@ http-errors@~1.6.1:
     statuses ">= 1.3.1 < 2"
 
 http-proxy@^1.13.0:
-  version "1.16.2"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.16.2.tgz#06dff292952bf64dbe8471fa9df73066d4f37742"
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
   dependencies:
-    eventemitter3 "1.x.x"
-    requires-port "1.x.x"
+    eventemitter3 "^4.0.0"
+    follow-redirects "^1.0.0"
+    requires-port "^1.0.0"
 
 http-signature@~1.1.0:
   version "1.1.1"
@@ -5723,7 +5700,7 @@ require-uncached@^1.0.2:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
 
-requires-port@1.x.x:
+requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
 
